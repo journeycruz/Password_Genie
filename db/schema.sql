@@ -6,4 +6,3 @@ UserPassword varchar(255) DEFAULT NULL,
 primary key(U_Id),
 UNIQUE KEY `UserId` (`UserId`)
 );
-
