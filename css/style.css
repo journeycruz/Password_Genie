@@ -45,6 +45,7 @@ button {
     cursor: pointer !important;
     transition: all .4s ease;
 }
+
 /*============= NAVBAR =============*/
 
 .navbar {
@@ -86,6 +87,7 @@ button {
     background: rgba(0, 0, 0, 0.7) !important;
     transition: background-color 1s ease 0s;
 }
+
 /*============= LANDING PAGE =============*/
 
 /*-- Fixed Landing Page Section --*/
@@ -269,3 +271,80 @@ button.owl-dot:hover span {
     background: #1ebba3 !important;
 }
 
+/*============= CONTACT SECTION =============*/
+
+.footer {
+    background: url('../img/footer/footer.jpg') no-repeat;
+    /*background-color: #40474e;*/
+    background-size: cover;
+    color: white;
+}
+
+.footer .row.outer {
+    background-color: rgba(57, 63, 70, 0.85);
+    padding: 1rem 2rem 3rem;
+}
+
+.footer img {
+    height: 2rem;
+    margin: 1.5rem 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul.social {
+    float: left;
+}
+
+.footer .social a:hover {
+    color: #1ebba3 !important;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+/*-- Contact Form --*/
+.form-group {
+    margin-bottom: 1.3rem;
+}
+
+.form-control {
+    background-color: #53595f;
+    border-radius: 0;
+    border: .15rem solid #666b71;
+    color: white !important;
+    font-size: 1.1rem;
+}
+
+.form-control:focus {
+    background: #53595f;
+    border: .15rem solid #93979b;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #b2b5b8 !important;
+}
+
+input.btn {
+    cursor: pointer;
+}
+
+.controls input:focus,
+.controls textarea:focus {
+    /*-- Remove Element Outlines in Contact Form --*/
+    outline: 0 !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
+
+/*-- Socket --*/
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}
