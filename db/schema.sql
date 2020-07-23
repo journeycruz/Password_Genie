@@ -1,8 +1,9 @@
-CREATE TABLE users (
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR
-(50) NOT NULL UNIQUE,
-    password VARCHAR
-(255) NOT NULL,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+create table UserNameAndPasswordDemo
+(
+U_Id int(10) unsigned NOT NULL AUTO_INCREMENT,
+UserId varchar(255) DEFAULT NULL,
+UserPassword varchar(255) DEFAULT NULL,
+primary key(U_Id),
+UNIQUE KEY `UserId` (`UserId`)
 );
+
