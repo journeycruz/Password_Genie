@@ -148,3 +148,53 @@ button {
     padding: .8rem 1.5rem;
     font-size: 1.1rem;
 }
+
+/*============= FEATURES SECTION =============*/
+
+.btn-sm {
+    border-width: medium;
+    border-radius: 0;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.btn-nuno {
+    border-color: #1EBBA3;
+    background-color: #1EBBA3;
+    color: white;
+}
+
+.btn-nuno:hover,
+.btn-nuno:focus {
+    border-color: #189582;
+    background-color: #189582;
+    color: white;
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1EBBA3;
+    margin: 0 auto 2rem;
+}
+
+.feature span {
+    color: #1EBBA3;
+    margin-bottom: .6rem;
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
