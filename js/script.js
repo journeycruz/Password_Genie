@@ -71,3 +71,12 @@ $(document).ready(function () { //when document(DOM) loads completely
         }
     });
 });
+
+
+/*========== MAKE ALL ANIMATION "FADEINUP" ON MOBILE ==========*/
+$(document).ready(function () { //when document(DOM) loads completely
+    if ($(window).width() < 768) { //if the window is less than 768px
+        $("div").attr('data-animation', 'fadeInUp'); //any div with the "data-animation" attribute should have it's value (animation style) changed to "fadeInUp"
+        $("div").attr('data-delay', '0s'); //remove data delay
+    }
+});
